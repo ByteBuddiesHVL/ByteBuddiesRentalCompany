@@ -1,6 +1,5 @@
 package bytebuddies.repositories;
 
-import bytebuddies.entities.Location;
-import org.springframework.stereotype.Repository;
+import bytebuddies.entities.Locations;
 import org.springframework.data.jpa.repository.JpaRepository;
-public interface LocationRepository extends JpaRepository<Location,Integer> {}
+public interface LocationRepository extends JpaRepository<Locations, String> {}
